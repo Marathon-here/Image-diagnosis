@@ -23,7 +23,7 @@ def build_chest_model():
         Dense(32, activation='relu'),  # Dense layer
         Dense(1, activation='sigmoid')  # Output layer for binary classification
     ])
-    model.load_weights(r'C:\Hospital_diagnosis_model\Chest-xray_model.h5')  # Load pre-trained weights
+    model.load_weights('Chest-xray_model.h5')  # Load pre-trained weights
     return model
 
 # Function to build the Brain Tumor model architecture and load weights
@@ -44,7 +44,7 @@ def build_brain_model():
         Dense(128, activation='relu'),
         Dense(1, activation='sigmoid')  # Output layer for binary classification
     ])
-    model.load_weights(r'C:\Hospital_diagnosis_model\brain_tumour_model.h5')  # Load pre-trained weights
+    model.load_weights('brain_tumour_model.h5')  # Load pre-trained weights
     return model
 
 #  Function to preprocess the image and make a prediction using the selected model
