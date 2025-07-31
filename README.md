@@ -28,8 +28,9 @@ This project aims to simplify medical image analysis using basic deep learning m
 ## 📂 Dataset
 
 - **Chest X-Ray Dataset:** Contains X-ray images labeled as Normal or Pneumonia.
-  **link:**
+  **link:**  https://github.com/Gurupatil0003/Chest-X-Ray-Dataset
 - **Brain MRI Dataset:** Contains MRI scans labeled as Tumor or Normal.
+  **link:**  https://github.com/Gurupatil0003/Brain-Tumor-Data-Set
 
 Due to size constraints, datasets were accessed using:
 
